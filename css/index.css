@@ -1,0 +1,29 @@
+.hero-post {
+    background-image: url(../images/hero-image.webp);
+    background-size: cover;
+    background-position: bottom;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 4em 1.5em 1.5em 1.5em;
+}
+
+.hero-post h2 {
+    margin: 0px;
+    font-size: 2rem;
+}
+
+.hero-post p {
+    margin: 0px;
+}
+
+/* Media rules */
+
+@media (min-width: 480px) {
+    .hero-post {
+        height: 300px;
+        background-position: 0 70%;
+    }
+}
